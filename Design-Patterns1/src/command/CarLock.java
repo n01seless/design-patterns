@@ -1,15 +1,15 @@
 package command;
 
 public class CarLock {
-private Boolean lightsOn;
+private Boolean CarLock;
 	
 	public void switchOn() {
-		System.out.println("Lights are on");
-		this.lightsOn = true;
+		System.out.println("Car is locked");
+		this.CarLock = true;
 	}
 	
 	public void switchOff() {
-		System.out.println("Lights are off");
-		this.lightsOn = false;
+		System.out.println("Car is unlocked");
+		this.CarLock = false;
 	}
 }
